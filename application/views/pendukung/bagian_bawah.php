@@ -30,6 +30,9 @@
 <script src="<?= base_url('assets/') ?>js/onepage-nav.min.js"></script>
 <!-- Easing JS -->
 <script src="<?= base_url('assets/') ?>js/easing.js"></script>
+<!-- Dongan JS -->
+<script src="<?= base_url('assets/') ?>js/log.js"></script>
+<script src="<?= base_url('assets/') ?>js/add.js"></script>
 <!-- Active JS -->
 <script src="<?= base_url('assets/') ?>js/active.js"></script>
 

@@ -30,6 +30,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/magnific-popup.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/font-awesome.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/css/fif.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="<?= base_url() ?>assets/css/LineIcons.css">
     <!-- Owl Carousel -->

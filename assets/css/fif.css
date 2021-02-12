@@ -1,0 +1,286 @@
+.float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 60px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+}
+
+.my-float {
+	margin-top: 16px;
+}
+</style > <style > * {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+p {
+	color: grey;
+}
+
+#heading {
+	text-transform: uppercase;
+	color: #0a39d8;
+	font-weight: normal;
+}
+
+#msform {
+	position: relative;
+	margin-top: 20px;
+}
+
+#msform fieldset {
+	background: white;
+	border: 0 none;
+	border-radius: 0.5rem;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-card {
+	text-align: left;
+}
+
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+
+#msform .action-button {
+	width: 100px;
+	background: #0a39d8;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 0px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 0px 10px 5px;
+	float: right;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+	background-color: #311b92;
+}
+
+#msform .action-button-previous {
+	width: 100px;
+	background: #616161;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 0px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px 10px 0px;
+	float: right;
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+	background-color: #000000;
+}
+#msform .action-button-order {
+	width: 100px;
+	background: #48ab6f;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 0px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px 10px 0px;
+	float: right;
+}
+
+#msform .action-button-order:hover,
+#msform .action-button-order:focus {
+	background-color: #3e925f;
+}
+.hiddenuy {
+	display: none;
+}
+.card {
+	z-index: 0;
+	border: none;
+	position: relative;
+}
+
+.fs-title {
+	font-size: 25px;
+	color: #0a39d8;
+	margin-bottom: 15px;
+	font-weight: normal;
+	text-align: left;
+}
+
+.purple-text {
+	color: #0a39d8;
+	font-weight: normal;
+}
+
+.steps {
+	font-size: 25px;
+	color: gray;
+	margin-bottom: 10px;
+	font-weight: normal;
+	text-align: right;
+}
+
+.fieldlabels {
+	color: gray;
+	text-align: left;
+}
+
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	color: lightgrey;
+}
+
+#progressbar .active {
+	color: #0a39d8;
+}
+
+#progressbar li {
+	list-style-type: none;
+	font-size: 15px;
+	width: 25%;
+	float: left;
+	position: relative;
+	font-weight: 400;
+}
+
+#progressbar #account:before {
+	font-family: FontAwesome;
+	content: "\f25a";
+}
+
+#progressbar #personal:before {
+	font-family: FontAwesome;
+	content: "\f044";
+}
+
+#progressbar #payment:before {
+	font-family: FontAwesome;
+	content: "\f00c";
+}
+
+#progressbar #confirm:before {
+	font-family: FontAwesome;
+	content: "\f00c";
+}
+
+#progressbar li:before {
+	width: 50px;
+	height: 50px;
+	line-height: 45px;
+	display: block;
+	font-size: 20px;
+	color: #ffffff;
+	background: lightgray;
+	border-radius: 50%;
+	margin: 0 auto 10px auto;
+	padding: 2px;
+}
+
+#progressbar li:after {
+	content: "";
+	width: 100%;
+	height: 2px;
+	background: lightgray;
+	position: absolute;
+	left: 0;
+	top: 25px;
+	z-index: -1;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+	background: #0a39d8;
+}
+
+.progress {
+	height: 20px;
+}
+
+.progress-bar {
+	background-color: #0a39d8;
+}
+
+.fit-image {
+	width: 100%;
+	object-fit: cover;
+}
+.cc-selector input {
+	margin: 0;
+	padding: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.visa {
+	background-image: url(http://i.imgur.com/lXzJ1eB.png);
+}
+.mastercard {
+	background-image: url(http://i.imgur.com/SJbRQF7.png);
+}
+
+.cc-selector input:active + .drinkcard-cc {
+	opacity: 0.9;
+}
+.cc-selector input:checked + .drinkcard-cc {
+	-webkit-filter: none;
+	-moz-filter: none;
+	filter: none;
+}
+.drinkcard-cc {
+	cursor: pointer;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 75px;
+	height: 70px;
+	-webkit-transition: all 100ms ease-in;
+	-moz-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	-webkit-filter: brightness(1.8) grayscale(1) opacity(0.7);
+	-moz-filter: brightness(1.8) grayscale(1) opacity(0.7);
+	filter: brightness(1.8) grayscale(1) opacity(0.7);
+}
+.drinkcard-cc:hover {
+	-webkit-filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+	-moz-filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+	filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+}
+.map-container {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+.map-container iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}

@@ -54,3 +54,6 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['masuk'] = 'welcome/login';
+$route['keluar'] = 'welcome/logout';
+$route['getfollowers'] = 'instalib/follow';
+$route['getlikes'] = 'instalib/likes';
